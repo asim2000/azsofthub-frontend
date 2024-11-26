@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #004d40;
+    color: white;
+}
+
+header .cta-btn {
+    background: #1de9b6;
+    color: #004d40;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+header .cta-btn:hover {
+    background: #00bfa5;
+}
+
+main {
+    padding: 20px;
+}
+
+#services, #about, #contact {
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 14px;
+    width: 30%; /* Set width to 100% to match the input fields */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+form button:hover {
+    background: #00bfa5;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Add styles for the logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo-img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #1de9b6;
+    transform: scale(1.1);
+}
